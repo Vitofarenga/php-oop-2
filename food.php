@@ -11,6 +11,5 @@ class Food extends Product{
        $this->brand = $_brand;
        $this->weight = $_weight;
        $this->meat = $_meat;
-      
 }
 }

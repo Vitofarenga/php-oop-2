@@ -1,5 +1,5 @@
 <?php
-class Products{
+class Product{
     protected $name;
     protected $type;
     protected $availability;
@@ -7,9 +7,9 @@ class Products{
 
 
     public function __construct($_name, $_type, $_availability, $_cost){
-   $this-> food = $_name;
-   $this-> toys = $_type;
-   $this-> care = $_availability;
-   $this-> training = $_cost;
+   $this-> name = $_name;
+   $this-> type = $_type;
+   $this-> availability = $_availability;
+   $this-> cost = $_cost;
 }
 }
